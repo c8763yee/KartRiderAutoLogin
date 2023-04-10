@@ -64,4 +64,9 @@ class Beanfun():
         self.web.close()
 
 
-Beanfun().start()
+def main():
+    Beanfun().start()
+
+
+if __name__ == '__main__':
+    main()
